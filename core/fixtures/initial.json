@@ -1,0 +1,46 @@
+[{
+  "model": "core.student",
+  "pk": 1,
+  "fields": {
+    "first_name": "Aleksei",
+    "last_name": "Kuznetcov"
+  }
+}, {
+  "model": "core.student",
+  "pk": 2,
+  "fields": {
+    "first_name": "Alex",
+    "last_name": "Smith"
+  }
+}, {
+  "model": "core.student",
+  "pk": 3,
+  "fields": {
+    "first_name": "John",
+    "last_name": "Doe"
+  }
+}, {
+  "model": "core.course",
+  "pk": 1,
+  "fields": {
+    "title": "Course 1",
+    "start_date": "2019-01-25",
+    "students": [1, 2]
+  }
+}, {
+  "model": "core.course",
+  "pk": 2,
+  "fields": {
+    "title": "Course 2",
+    "start_date": "2019-01-25",
+    "students": [2, 3]
+  }
+}, {
+  "model": "core.course",
+  "pk": 3,
+  "fields": {
+    "title": "Course 3",
+    "start_date": "2019-01-25",
+    "students": [1, 2, 3]
+  }
+}]
